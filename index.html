@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolucionaJá - Encontre os melhores profissionais de Vitória de Santo Antão</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>SolucionaJá</h1>
+                    <span class="tagline">Vitória de Santo Antão</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#como-funciona" class="nav-link">Como Funciona</a></li>
+                        <li><a href="#para-profissionais" class="nav-link">Para Profissionais</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="#login" class="btn btn-outline">Entrar</a>
+                    <a href="#cadastro" class="btn btn-primary">Cadastre-se</a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Encontre os <span class="highlight">melhores profissionais</span> 
+                        de Vitória de Santo Antão em um só lugar
+                    </h1>
+                    <p class="hero-description">
+                        Conectamos você aos profissionais autônomos mais qualificados e confiáveis da região. 
+                        Rápido, seguro e com avaliações reais de outros clientes.
+                    </p>
+                    
+                    <!-- Barra de Busca -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" placeholder="Que serviço você precisa? Ex: eletricista, pintor..." class="search-input">
+                            <button class="search-btn">Buscar</button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Profissionais</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1200+</span>
+                            <span class="stat-label">Serviços Realizados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.8</span>
+                            <span class="stat-label">Avaliação Média</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-illustration">
+                        <i class="fas fa-tools hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias de Serviços -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Principais Categorias de Serviços</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Reformas e Reparos</h3>
+                    <p>Pedreiros, pintores, eletricistas e mais</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Serviços Domésticos</h3>
+                    <p>Limpeza, jardinagem, organização</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Assistência Técnica</h3>
+                    <p>Eletrônicos, eletrodomésticos, informática</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Automotivo</h3>
+                    <p>Mecânicos, eletricistas automotivos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Beleza e Estética</h3>
+                    <p>Cabeleireiros, manicures, esteticistas</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Educação</h3>
+                    <p>Professores particulares, reforço escolar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Busque o Serviço</h3>
+                        <p>Digite o que você precisa e encontre profissionais qualificados na sua região</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Escolha o Profissional</h3>
+                        <p>Compare perfis, avaliações e preços para escolher o melhor profissional</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Contrate e Avalie</h3>
+                        <p>Entre em contato, contrate o serviço e avalie sua experiência</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que nossos usuários dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Encontrei um eletricista excelente através do SolucionaJá. Serviço rápido e de qualidade!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Maria Silva</h4>
+                            <span>Cliente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Como profissional, consegui aumentar minha clientela significativamente. Plataforma muito útil!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>João Santos</h4>
+                            <span>Pintor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Praticidade e confiança em um só lugar. Recomendo para todos que precisam de serviços!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Costa</h4>
+                            <span>Cliente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" id="para-profissionais">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Pronto para começar?</h2>
+                    <p>Junte-se à nossa comunidade e encontre os melhores profissionais ou ofereça seus serviços</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#cadastro-cliente" class="btn btn-primary btn-large">Encontrar Profissionais</a>
+                    <a href="#cadastro-profissional" class="btn btn-outline btn-large">Oferecer Serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>SolucionaJá</h3>
+                        <p>Conectando profissionais e clientes em Vitória de Santo Antão</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#termos">Termos de Serviço</a></li>
+                        <li><a href="#privacidade">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> contato@solucionaja.com.br</p>
+                        <p><i class="fas fa-phone"></i> (81) 9999-9999</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Vitória de Santo Antão - PE</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SolucionaJá. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
